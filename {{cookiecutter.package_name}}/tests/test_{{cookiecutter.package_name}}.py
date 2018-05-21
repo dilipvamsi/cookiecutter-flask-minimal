@@ -5,12 +5,8 @@ import {{cookiecutter.package_name}}
 
 class {{cookiecutter.package_name.capitalize()}}TestCase(unittest.TestCase):
 
-    def setUp(self):
-        self.app = {{cookiecutter.package_name}}.app.test_client()
-
-    def test_index(self):
-        rv = self.app.get('/')
-        self.assertIn('Welcome to {{cookiecutter.application_name}}', rv.data.decode())
+    def test_sample(self):
+        self.assertIn('Hi cookiecutter, Welcome to {{cookiecutter.application_name}}', {{cookiecutter.package_name}}.sample())
 
 
 if __name__ == '__main__':

@@ -1,6 +1,6 @@
 from flask import render_template
 
-from {{cookiecutter.package_name}} import app
+from {{cookiecutter.package_name}}_flask import app
 
 
 @app.route('/')
