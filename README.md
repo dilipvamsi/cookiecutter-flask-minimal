@@ -13,7 +13,7 @@ Install [cookiecutter](https://github.com/audreyr/cookiecutter):
 
 Create your application from this template:
 
-    cookiecutter https://github.com/candidtim/cookiecutter-flask-minimal.git
+    cookiecutter https://github.com/dilipvamsi/cookiecutter-flask-minimal.git
 
 All set! Run the application:
 
